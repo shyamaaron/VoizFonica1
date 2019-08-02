@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>prepaid</title>
+
+</head>
+<body>
+<!--WELCOME TO PREPAID PAGE
+&lt;!&ndash;<table >
+    <thead>
+    <tr>
+ <td>Name</td>
+ <td>Amount</td>
+ <td>Validity</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${planlist.empty}">
+        <td colspan="2"> No Plans Available</td>
+    </tr>
+    <tr th:each="plans : ${planlist}">
+        <td><span th:text="${plans.planName}"> Name</span></td>
+        <td><span th:text="${plans.planAmt}"> Amount </span></td>
+        <td><span th:text="${plans.planValidity}"> Validity </span></td>
+    </tr>
+    </tbody>
+</table>-->
+<ul th:each="plans : ${planlist}">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title" th:text="${plans.planName}"></h5>
+            <div class="card-text">
+                <td th:text="${plans.planAmt}"></td><br>
+            <td th:text="${plans.planValidity}"></td>
+            </div>
+            <a th:href="@{payment}" class="btn btn-primary">Buy Now</a>
+        </div>
+    </div>
+
+</ul>
+
+
+</body>
+
+</html>

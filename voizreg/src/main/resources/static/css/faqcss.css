@@ -1,0 +1,160 @@
+body {
+  background-image:url(../images/faq.jpg);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#stips-container {
+  background: white;
+  max-width: 960px;
+  margin: auto;
+  padding: 0.5em;
+}
+
+#stips-container ::-moz-selection {
+  background: transparent;
+}
+
+#stips-container ::selection {
+  background: transparent;
+}
+
+.stips-top {
+  margin-bottom: 0.5em;
+  background-color: #fbbb00;
+  color: white;
+  overflow: hidden;
+  border-radius: 0.4em;
+}
+.stips-top h2 {
+  margin: .7em;
+  color: white;
+}
+.stips-top .stips-split {
+  display: flex;
+}
+.stips-top .stips-split .stips-content {
+  width: 60%;
+  padding: 0 1.1em;
+}
+.stips-top .stips-split .stips-content p {
+  margin-top: 0;
+}
+.stips-top .stips-split .stips-icon {
+  margin-left: auto;
+  margin-right: 1em;
+  width: 6em;
+  height: 6em;
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -.6em;
+}
+.stips-top .stips-split .stips-icon img {
+  width: 70%;
+}
+
+.stips-section {
+  border-radius: 0.4em;
+  padding: 0.3em;
+  margin-bottom: 0.5em;
+}
+.stips-section .stips-header {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+}
+.stips-section .stips-header .stips-icon {
+  width: 5em;
+  height: 5em;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 1em;
+  margin-left: 0.4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -.6em;
+}
+.stips-section .stips-header .stips-icon img {
+  width: 70%;
+}
+.stips-section .stips-header .stips-title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.stips-section .stips-header .stips-title.stips-grey {
+  color: #666;
+  margin-left: 0.4em;
+}
+.stips-section .stips-header .stips-toggle {
+  margin-left: auto;
+  /*flexes last item to right*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  margin-right: 1.1em;
+}
+.stips-section .stips-header .stips-toggle .stips-button {
+  background: url("http://i63.tinypic.com/jz78li_th.jpg");
+  background-size: 2em;
+  width: 2em;
+  height: 2em;
+}
+.stips-section .stips-header.active .stips-toggle .stips-button {
+  background: url("http://i67.tinypic.com/2hcqfsp_th.png");
+  background-size: 2em;
+}
+.stips-section .stips-content {
+  background-color: white;
+  border-radius: 0.2em;
+  padding: 0.7em;
+  color: #555;
+  display: none;
+}
+.stips-section .stips-content p {
+  margin: 0.5em 0.5em 1em 0.5em;
+}
+.stips-section .stips-content h4 {
+  margin: 0.5em;
+  color: #555;
+}
+.stips-section .stips-content a {
+  color: #555;
+}
+.stips-section .stips-content.content-show {
+  display: block;
+}
+.stips-section:last-child {
+  margin-bottom: 0;
+}
+.stips-section.stips-money-tips {
+  background-color: #0bbbef;
+}
+.stips-section.stips-time-tips {
+  background-color: #f195bf;
+}
+.stips-section.stips-things-know {
+  background-color: #69b42d;
+}
+.stips-section.stips-handy-tools {
+  background-color: #ef7d00;
+}
+.stips-section.stips-sub {
+  background-color: #dcdcdc;
+  z-index: 1000;
+  position: relative;
+}
+.stips-section.stips-sub .stips-toggle {
+  margin-right: .1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.stips-section.open .stips-content {
+  display: block !important;
+}

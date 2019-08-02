@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<div class="box">
+    <h1>SIGN-UP</h1>
+    <form th:object="${signup}" method="post">
+
+        <i class="fa fa-envelope icon" aria-hidden="true"></i>
+        <input type="email" placeholder=" Enter your Email" th:field="*{email}"><br/>
+        <i class="fa fa-lock icon" aria-hidden="true"></i>
+        <input type="password" placeholder="Enter your password" th:field="*{password}"><br/>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+</body>
+</body>
+</html>

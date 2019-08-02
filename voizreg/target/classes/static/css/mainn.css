@@ -1,0 +1,122 @@
+
+.home-button{
+    text-align: center;
+}
+.newuser-button,.login-button{
+    border: 1px solid #6ab446;
+	background: #6ab446;
+	border-radius: 20px;
+    font-size: 40px;
+	color: #fff;
+    margin-top: 100px;
+	margin-left: 30px;
+}
+
+.page-footer {
+	/* background-color: #222; */
+	
+	/*padding: 10px 0 10px;*/
+    margin-top: 100px;
+}
+
+.footer-copyright{
+	color: #000;
+     margin-top: 10px;
+	padding: 150px;
+} 
+
+.header {
+	color: white;
+    font-size: 70px;
+    font-family:monospace;
+   
+}
+/*.register{
+    background-image: url('images/form-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}*/
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(192,192,192,0.3);
+}
+.row{
+	margin-left: 65px;
+	
+}
+.header-reg{
+    color: black;
+     font-size: 70px;
+    font-family:monospace;
+}
+.form-submit{
+    margin-left: 50%;
+}
+.form-group{
+    width:60%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+
+/*.rate{
+    font-size:40px;
+    color: black;
+    font-family: monospace;
+}
+.rate-display{
+   
+    margin-top: 40px;
+}
+.quick{
+    font-size: 60px;
+    font-family: cursive;
+    margin-left: 10%;
+}
+.rate1{
+    margin-left: 100px;
+}*/
+.rate{
+    
+    display: inline;
+    border: 3px solid black;
+    padding:40px 40px 40px;
+    font-family:monospace;
+    font-size: 20px;
+    border-color:#33cc33;
+}
+    
+.rate-display{
+   margin-top: 110px;
+    margin-left: 10%;
+}
+.quick{
+    font-size: 60px;
+    font-family: cursive;
+}
+.navbar {
+	background: #D3D3D3;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
