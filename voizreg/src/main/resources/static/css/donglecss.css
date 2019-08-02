@@ -1,0 +1,27 @@
+/*html,body{*/
+/*	!*background-image: url('images/recharge.jpg');*/
+/*	background-size: cover;*/
+/*	background-repeat: no-repeat;*/
+/*	height: 100%;*!*/
+/*}*/
+
+     table{
+   
+                
+                padding-left:20px; 
+            
+			background-color:azure;
+            padding-top:10px;
+            margin: 0 auto; 
+            width:500px;
+            border-style:groove;
+            border-radius:10px;
+            padding-bottom: 20px;
+            margin-top:25px;
+}
+center{
+   margin:0 auto; 
+}
+input[type=submit] {
+    width: 7em;  height: 2em;
+}       
